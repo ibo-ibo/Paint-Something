@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+canvas {
+  margin: auto auto;
+  border: 3px solid rgb(14, 12, 12);
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+
+canvas:hover {
+  border-color: chocolate;
+}
